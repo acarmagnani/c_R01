@@ -69,7 +69,7 @@ body {
     color: var(--c-txt);
 
     background: 
-    radial-gradient(circle, var(--c-grid) 0%, transparent 8%);
+    radial-gradient(circle, var(--c-grid) 0%, transparent 10%);
     background-size: var(--grid) var(--grid); 
     background-position: top center;
 
@@ -97,26 +97,20 @@ body {
 
 /* fonts */
 h1 {
-    font-size: 3vw;
+    font-size: 14px;
     font-style: italic;
 }
 
 h2 {
-    font-size: 1.75vw;
+    font-size: 12px;
 }
 
 b1 {
-    font-size: 1.5vw;
+    font-size: 10px;
 }
 
 /* media query 1 */
-@media (min-width: 800px) {
-
-    /* var */
-    :root {    
-        /* container */
-        --grid: 16px;
-    }
+@media (min-width: 500px) {
 
     /* fonts */
     h1 {
@@ -131,6 +125,16 @@ b1 {
         font-size: 12px;
     }
 
+}
+
+/* media query 2 */
+@media (min-width: 800px) {
+
+    /* var */
+    :root {    
+        /* container */
+        --grid: 16px;
+    }
 }
 
 
@@ -191,7 +195,7 @@ li {
 }
 
 .box_shadow {
-    box-shadow: -10px 10px #586e75ee;
+    box-shadow: -5px 5px #586e75ee;
     background-color: rgb(167, 255, 196);
 }
 
