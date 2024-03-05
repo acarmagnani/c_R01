@@ -97,16 +97,16 @@ body {
 
 /* fonts */
 h1 {
-    font-size: 14px;
+    font-size: 18px;
     font-style: italic;
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 b1 {
-    font-size: 10px;
+    font-size: 9px;
 }
 
 /* media query 1 */
