@@ -65,7 +65,7 @@ blockquote, q {
 
 /* body */
 body {
-    font-family: "Input Sans", monospace;
+    font-family: "Roboto Light", "Input Sans", monospace;
     color: var(--c-txt);
 
     background: 
@@ -93,12 +93,20 @@ body {
     --box-shadow: 5px;
     --c-container: white;
 
-
     --container-w: calc(var(--grid)*38);
     --container-w-center: calc( 50% - (var(--container-w)/2) );
+
+    --pad: 10px;
 }
 
 /* fonts */
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../../fonts/RobotoMono-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1 {
     font-size: 16px;
     font-style: italic;
@@ -257,13 +265,32 @@ li {
 
 /* LANG */
 
-/* CONTAINERS */
 
-/* projects */
+/* PROJECTS */
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.pad {
+    padding-bottom: var(--pad);
+}
+
+/* containers */
 .project-container-1 {
     width: var(--container-w);
 
     left: calc( var(--container-w-center) );
     
-    top: calc( var(--grid)/2 + var(--grid)*10 );
+    top: calc( var(--grid)/2 + var(--grid)*18 );
 }
+
+@media (min-width: 500px) {
+    .project-container-1 {
+        top: calc( var(--grid)/2 + var(--grid)*12 );
+    }
+}
+
+/* PROJECTS */
