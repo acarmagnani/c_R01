@@ -82,7 +82,7 @@ body {
     --def-duraton: 0.5s;
 
     /* body */
-    --c-bg: hsl(0, 0%, 100%);
+    --c-bg: hsl(145, 100%, 98%);
     --c-grid: rgb(0, 0, 0);
     --c-txt: rgb(0, 0, 0);
 
@@ -204,7 +204,7 @@ li {
 /* CONTAINER */
 
 #Body {
-    position: relative;
+    position: fixed;
 }
 
 .container {
@@ -265,6 +265,15 @@ li {
 
 /* LANG */
 
+/* FOOTER */
+
+#Footer {
+    display: flex;
+    position: relative;
+}
+
+/* FOOTER */
+
 
 /* PROJECTS */
 
@@ -287,9 +296,21 @@ li {
     top: calc( var(--grid)/2 + var(--grid)*18 );
 }
 
+.project-container-2 {
+    width: var(--container-w);
+
+    left: calc( var(--container-w-center) );
+    
+    top: calc( var(--grid)/2 + var(--grid)*50 );
+}
+
 @media (min-width: 500px) {
     .project-container-1 {
         top: calc( var(--grid)/2 + var(--grid)*12 );
+    }
+
+    .project-container-2 {
+        top: calc( var(--grid)/2 + var(--grid)*40 );
     }
 }
 
