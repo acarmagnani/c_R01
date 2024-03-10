@@ -1,0 +1,11 @@
+@import url(var.css);
+
+@media (min-width: 1250px) {
+    .about-b1 {
+        display: flex;
+    }
+    .about-b1-container {
+        margin-right: var(--pad);
+        margin-left: var(--pad);
+    }
+}
