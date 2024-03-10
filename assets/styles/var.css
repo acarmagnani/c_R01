@@ -1,0 +1,26 @@
+:root {
+
+    /* animations */
+    --def-duration: 0.5s;
+
+    /* body */
+    --c-txt: black;
+    --c-bg: white;
+    --c-grid: black;
+    --pad: 10px;
+    --footer-h: 250px;
+
+    /* container */
+    --container-c-bg: white;
+    --container-width: 70vw;
+    --container-center: calc(50vw - var(--container-width)/2)
+}
+
+
+@media (min-width: 800px) {
+    :root {
+
+        /* container */
+        --container-width: 560px;
+    }
+}

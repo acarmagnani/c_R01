@@ -1,0 +1,20 @@
+@import url(var.css);
+
+.project-content img {
+    width: 100%;
+    height: auto;
+}
+
+.project-content h2 {
+    padding-bottom: var(--pad);
+}
+
+.project-container {
+    width: 70vw;
+}
+
+@media (min-width: 1200px) {
+    .project-container {
+        width: 840px;
+    }
+}

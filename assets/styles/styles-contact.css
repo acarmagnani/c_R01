@@ -1,0 +1,19 @@
+@import url(var.css);
+
+@media (min-width: 1000px) {
+    .contact-b1, .contact-b2 {
+        display: flex;
+    }
+    .contact-b1-container {
+        width: 300px;
+        margin-right: var(--pad);
+        margin-left: var(--pad);
+    }
+
+    .contact-b2-container {
+        width: 471px;
+        margin-right: var(--pad);
+        margin-left: var(--pad);
+    }
+
+}
