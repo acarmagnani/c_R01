@@ -1,5 +1,9 @@
 @import url(var.css);
 
+.project-content {
+    display: inline-block;
+}
+
 .project-content img {
     width: 100%;
     height: auto;
@@ -7,6 +11,10 @@
 
 .project-content h2 {
     padding-bottom: var(--pad);
+}
+
+.project-title {
+    position: absolute;
 }
 
 .project-container {
